@@ -1,0 +1,53 @@
+# Logs
+logs/
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+.venv/
+
+# Go
+*.exe
+*.test
+*.out
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Compiled files and binaries
+*.o
+*.out
+*.a
+*.so
+*.dll
+*.exe
+*.pyc
+*.class
+
+# Secrets and sensitive files
+.env
+*.key
+*.pem
+
+# Exclude Redis and PostgreSQL data volumes
+/opt/redis/
+/opt/postgres/
+
