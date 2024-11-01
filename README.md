@@ -5,7 +5,7 @@ This project is a technical assessment to demonstrate skills in Golang, Docker, 
 
 ## Project Overview
 
-This application connects to the Ethereum blockchain using a free RPC endpoint, queries the latest 100,000 blocks for `mint` transactions from a specific contract, and stores the data in a PostgreSQL database. Additionally, Redis is used as a cache layer to optimize querying, and a REST API is provided for retrieving transactions by wallet address.
+This application connects to the Ethereum blockchain using a free RPC endpoint, starting from a specified block height (e.g., 100,000). It queries for `mint` transactions from a specific contract and stores this data in a PostgreSQL database. Additionally, Redis is used as a cache layer to optimize querying, and a REST API is provided for retrieving transactions by wallet address.
 
 ---
 
