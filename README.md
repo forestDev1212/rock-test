@@ -49,3 +49,25 @@ ethereum-query-assessment/
 └── main.go                 # Main application entry point
 ```
 
+
+5. **API Example**
+```/api/v1/transactions/:walletAddress```
+
+```
+
+[
+    {
+        "block_number": 120000,
+        "transaction_hash": "0xabc...",
+        "sender": "0x123...",
+        "recipient": "0x456...",
+        "value": "1000000000000000000",
+        "gas_price": "5000000000",
+        "gas_limit": 21000,
+        "nonce": 1,
+        "data": "0x..."
+    },
+    ...
+]
+
+```

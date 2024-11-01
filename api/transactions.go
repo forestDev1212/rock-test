@@ -9,7 +9,7 @@ import (
 )
 
 func RegisterRoutes(r *gin.Engine) {
-	r.GET("/transactions/:walletAddress", GetTransactionsByWallet)
+	r.GET("api/v1/transactions/:walletAddress", GetTransactionsByWallet)
 }
 
 func GetTransactionsByWallet(c *gin.Context) {
